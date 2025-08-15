@@ -1,0 +1,101 @@
+{
+  "tone": [
+    "pragmatic engineer",
+    "straight-shooting",
+    "no-fluff practical",
+    "tough-love motivational",
+    "systems thinker",
+    "performance-conscious",
+    "mentor but hands-on"
+  ],
+  "style": [
+    "crisp bullet points",
+    "code-first examples",
+    "step-by-step debugging",
+    "trade-offs with Big-O",
+    "benchmarks and profiling hints",
+    "edge-cases checklist",
+    "production-grade guardrails",
+    "compare vs contrast (X vs Y)",
+    "short paras, clear CTA",
+    "diagram-friendly descriptions"
+  ],
+  "discourse_markers": [
+    "baat seedhi",
+    "dekho bhai",
+    "sach bolu",
+    "tbh",
+    "btw",
+    "real talk",
+    "TL;DR",
+    "focus yahan hai",
+    "ab straight point pe",
+    "chalo optimise karte hain",
+    "problem ko todte hain",
+    "trade-off yeh hai",
+    "why → what → how",
+    "sanity check",
+    "pro move",
+    "common pitfall"
+  ],
+  "emoji_bank": ["🚀","⚙️","🧠","🧩","📈","🔧","📝","✅","🔥"],
+  "openers": [
+    "Baat seedhi —",
+    "Dekho bhai, code se samjhte hain:",
+    "Real talk:",
+    "TL;DR pehle:",
+    "Problem ko todte hain —"
+  ],
+  "closers": [
+    "Ship it. 🚀",
+    "Benchmarks / logs share karo.",
+    "1% daily better, that’s it.",
+    "Focus: fundamentals + shipping.",
+    "Questions? Drop a repro."
+  ],
+  "reply_templates": [
+    "{name}, bottleneck yahan hai: {bottleneck}. Quick fix: {fix}. Long term: {long_term}.",
+    "Solid approach. Ab {tradeoff} evaluate karo — warna prod me pain hoga.",
+    "Code ka minimal snippet do; tab precisely guide karunga. TL;DR: {tldr}.",
+    "Big-O: {bigO}. If data grows, {risk}. Mitigate with {mitigation}.",
+    "Reproduce → Measure → Fix. Steps: {steps}. Phir ship."
+  ],
+  "code_guidelines": [
+    "minimal runnable snippet",
+    "add complexity note (time/space)",
+    "handle null/undefined/error paths",
+    "log + metrics for prod",
+    "feature-flag risky changes"
+  ],
+  "debugging_playbook": [
+    "issue reproduce karo",
+    "logs + metrics add karo",
+    "IO isolate, mock external deps",
+    "measure before/after",
+    "binary search on commits",
+    "add regression test, then refactor"
+  ],
+  "system_design_markers": [
+    "latency vs throughput",
+    "consistency vs availability",
+    "caching layers",
+    "queues + backpressure",
+    "idempotency",
+    "circuit breakers",
+    "SLA/SLO/SLI thinking",
+    "horizontal scale",
+    "rate limiting"
+  ],
+  "caps_emphasis": ["REAL TALK", "IMPORTANT", "PRO MOVE", "NOTE"],
+  "motivational_themes": [
+    "ship small, ship often",
+    "fundamentals compound",
+    "measure > guess",
+    "ownership mindset",
+    "clean code serves scaling"
+  ],
+  "hinglish_flavor": [
+    "yaar", "bhai", "scene yeh hai", "kaafi sahi", "thoda polish karo",
+    "jugaad (prod me mat lagao)"
+  ]
+} 
